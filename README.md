@@ -2,25 +2,37 @@
 
 ## Installation
 
-`npm install`
+```
+npm install
+```
 
 ## Serve
 
 **Open browser to [http://localhost:3100](http://localhost:3100)**
-`npm start`
+
+```
+npm start
+```
 
 ## Build
 
 **Still need to make this**
-`npm build`
+
+```
+npm build
+```
 
 ## Tests
 
-Run `npm test`. To find all `*.spec.js` files and run Mocha on them supports Babel in test files.
+```
+npm test
+```
+
+To find all `*.spec.js` files and run Mocha on them supports Babel in test files.
 
 Modify `test/pretest.js` to update the `tests/model.json` you'll be using for testing.
 
-Create `test/credentials.json` file. It should look something like this but may differ depending on how your `test/pretes/js` file is setup.
+Create `test/credentials.json` file. It should look something like this but may differ depending on how your `test/pretest.js` file is setup.
 
 ```
 {
