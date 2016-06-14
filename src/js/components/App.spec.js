@@ -21,7 +21,7 @@ describe('<App />', () => {
 
   let verifiedMethods = {};
 
-  it('renders a list item for each activity', () => {
+  it('displays one h1 tag', () => {
     expect(defaultWrapper.find('h1').length).to.equal(1);
   });
 
