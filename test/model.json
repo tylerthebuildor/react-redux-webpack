@@ -1,0 +1,889 @@
+{
+  "traveler_bookings": [
+    {
+      "id": 190,
+      "booking_id": 100,
+      "traveler_id": 190,
+      "assigned_room": "C36",
+      "requested_room": null,
+      "requested_bed": null,
+      "meal_preference": null,
+      "is_room_primary_contact": null,
+      "created_at": "2016-03-30T22:54:14.000Z",
+      "updated_at": "2016-04-05T13:26:47.000Z",
+      "guest_id": 1,
+      "has_accepted_passage_contract": true,
+      "has_accepted_cuba_affadavit": true,
+      "uuid": "d35b0c7e-d07f-4713-98e5-6c348bbde427",
+      "sms_opt_in": null,
+      "infusionsoft_lead_id": null,
+      "user_id": 1872,
+      "bed_arrangement": null,
+      "booking": {
+        "id": 100,
+        "polar_book_num": "CJCJWX",
+        "polar_booking_status": null,
+        "polar_book_datetime": null,
+        "ship_voyage_id": 13,
+        "created_at": "2016-03-30T22:53:35.000Z",
+        "updated_at": "2016-03-30T22:53:35.000Z",
+        "open_date": null,
+        "first_name": "AARON",
+        "last_name": "TRIBBLE",
+        "age": 34,
+        "gender": "M",
+        "dob": "1982-04-27",
+        "group_code": null,
+        "promotions": "LI1",
+        "commission_full_booking": null,
+        "commission": "0.0",
+        "fare": 10460,
+        "discount_percentage": null,
+        "discount_amount": -5420,
+        "port_charges": 380,
+        "gov_fees": 412,
+        "onboard_credit": 0,
+        "gross": 5982,
+        "booking_agent": "DIRECT2016F",
+        "balance_due": 0,
+        "deposit": 2400,
+        "currency": "USD",
+        "agency": "DIRECT",
+        "phone": "2130000000"
+      },
+      "ship_voyage": {
+        "id": 13,
+        "polar_sailing_id": "D649",
+        "sail_date": "2016-06-12",
+        "voyage_itinerary_id": 10,
+        "created_at": "2016-03-30T22:53:34.000Z",
+        "updated_at": "2016-04-27T22:14:14.000Z",
+        "ship_id": 1,
+        "pier_terminal": "J",
+        "boarding_time": "12:00",
+        "sail_time": "16:30",
+        "ship": {
+          "id": 1,
+          "name": "Adonia"
+        }
+      },
+      "ship": {
+        "id": 1,
+        "name": "Adonia"
+      },
+      "voyage_itinerary": {
+        "id": 10,
+        "code": "C6D07X",
+        "description": "7-DAY CUBA",
+        "duration_days": 7,
+        "embark_port_id": 1,
+        "debark_port_id": 7,
+        "created_at": "2016-03-30T22:53:34.000Z",
+        "updated_at": "2016-03-30T22:53:34.000Z",
+        "start_day_of_week": 0,
+        "max_activities": 0,
+        "max_impact_activities": 0,
+        "embark_port": {
+          "id": 1,
+          "code": "MIAMI",
+          "name": "Miami, Florida",
+          "created_at": "2016-03-30T22:44:31.000Z",
+          "updated_at": "2016-03-30T22:44:31.000Z",
+          "country_label": null
+        },
+        "debark_port": {
+          "id": 7,
+          "code": "SANTIAGO_DE_CUBA",
+          "name": "Santiago de Cuba, Cuba",
+          "created_at": "2016-03-30T22:44:31.000Z",
+          "updated_at": "2016-03-30T22:44:31.000Z",
+          "country_label": "Cuba"
+        }
+      },
+      "debark_port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      },
+      "embark_port": {
+        "id": 1,
+        "code": "MIAMI",
+        "name": "Miami, Florida",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": null
+      },
+      "traveler": {
+        "id": 190,
+        "infusionsoft_contact_id": "44",
+        "email": "russ.tribble@gmail.com",
+        "is_child": false,
+        "title": null,
+        "first_name": "AARON",
+        "middle_name": "RUSSELL",
+        "last_name": "TRIBBLE",
+        "gender": "M",
+        "date_of_birth": "1982-04-27",
+        "country": "US",
+        "city": "Irving",
+        "province": null,
+        "postal_code": "75039",
+        "phone": "8173132460",
+        "phone_type": 0,
+        "country_of_birth": "US",
+        "speaks_spanish": true,
+        "dietary_restrictions": null,
+        "languages": "English and Spanish",
+        "emergency_contact_full_name": "Tanna Spears",
+        "emergency_contact_relationship": "Mother in Law",
+        "emergency_contact_day_phone": "(281)844-1781",
+        "emergency_contact_night_phone": "(281)844-1781",
+        "emergency_contact_email_address": "mimispears3@yahoo.com",
+        "emergency_airport": "DFW",
+        "created_at": "2016-03-30T22:54:13.000Z",
+        "updated_at": "2016-06-10T21:09:29.000Z",
+        "citizenship": "US",
+        "passport_number": "464218064",
+        "passport_issue_date": "2010-01-06",
+        "passport_expiry_date": "2020-01-05",
+        "passport_country": "US",
+        "passport_issuing_authority": "United States Department of State",
+        "age": 34,
+        "street": "6445 Love Drive",
+        "emergency_contact_street": null,
+        "emergency_contact_city": null,
+        "emergency_contact_province": null,
+        "emergency_contact_postal_code": null,
+        "emergency_contact_country": null,
+        "temporary_source_data_title": "MR",
+        "temporary_source_data_phone": "2130000000",
+        "has_valid_passport": true,
+        "owned_by": "christina.r.tribble@gmail.com",
+        "user": {
+          "id": 1872,
+          "first_name": "AARON",
+          "last_name": "TRIBBLE",
+          "middle_name": null,
+          "email": "christina.r.tribble@gmail.com",
+          "role": "traveler"
+        }
+      },
+      "activity_preferences": [
+        {
+          "id": 19606,
+          "traveler_booking_id": 190,
+          "comments": null,
+          "created_at": "2016-05-27T00:24:23.000Z",
+          "updated_at": "2016-05-27T00:24:23.000Z",
+          "activity_occurrence_id": 156,
+          "activity_id": 90,
+          "activity_occurrence": {
+            "id": 156,
+            "shorex_id": "HAV001A",
+            "depart_time": "11:50 AM",
+            "return_time": "5:40 PM",
+            "price_adult": "0.00",
+            "price_child": "0.00",
+            "cost_adult": "65.00",
+            "cost_child": "65.00",
+            "minimum": 33,
+            "excursion_day": 1,
+            "excursion_day_name": "Monday",
+            "wheelchair_code": "N",
+            "all_day_flag": false,
+            "period": "AM",
+            "availability_voyage": null,
+            "availability": null,
+            "capacity": 704,
+            "activity_voyage_overrides": [
+              {
+                "id": 1,
+                "ship_voyage_id": 13,
+                "activity_occurrence_id": 156,
+                "cancelled": true,
+                "capacity": null
+              }
+            ]
+          },
+          "activity": {
+            "id": 90,
+            "name": "Old Havana Walking Tour",
+            "activity_type": "PTP",
+            "activity_ptp": "PTP",
+            "location": "SANTIAGO_DE_CUBA",
+            "image_url": "https://apiuat.fathom.org/shorex_images/old_havana.jpg",
+            "description": "Discover the vibrant flavors, colors, and people of Old Havana on this walking tour with an authentic Cuban lunch at a local paladar or restaurant where you will learn about the flavors and cuisine of Cuba.  Built in the 16th Century, Old Havana is a recognized  UNESCO World Heritage Site and provides a glimpse into deep and rich history of the city. Enjoy a coffee in Plaza Vieja while a local Cafe owner will explain the role of tourism in Old Havana or see how coffee beans are roasted, and visit San Francisco de Assisi Square to discuss the role of religion on the island from patrons of the square’s beautiful cathedral. Stumble upon the famous booksellers' market in Plaza de Armas to explore literature and antiques with the local merchants and then have your fortune read by one of the many Santeros who have set up shop in Cathedral Square, before meeting local artists at Taller Grafico Experimental, where you will learn about one of the world’s oldest “grabado” or printmaking techniques.",
+            "activity_occurrences": [
+              {
+                "id": 156,
+                "shorex_id": "HAV001A",
+                "depart_time": "11:50 AM",
+                "return_time": "5:40 PM",
+                "price_adult": "0.00",
+                "price_child": "0.00",
+                "cost_adult": "65.00",
+                "cost_child": "65.00",
+                "minimum": 33,
+                "excursion_day": 1,
+                "excursion_day_name": "Monday",
+                "wheelchair_code": "N",
+                "all_day_flag": false,
+                "period": "AM",
+                "availability_voyage": null,
+                "availability": null,
+                "capacity": 704,
+                "activity_voyage_overrides": [
+                  {
+                    "id": 1,
+                    "ship_voyage_id": 13,
+                    "activity_occurrence_id": 156,
+                    "cancelled": true,
+                    "capacity": null
+                  }
+                ]
+              }
+            ],
+            "port": {
+              "id": 7,
+              "code": "SANTIAGO_DE_CUBA",
+              "name": "Santiago de Cuba, Cuba",
+              "created_at": "2016-03-30T22:44:31.000Z",
+              "updated_at": "2016-03-30T22:44:31.000Z",
+              "country_label": "Cuba"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "booking_id": 100,
+      "traveler_id": 193,
+      "assigned_room": "C36",
+      "requested_room": null,
+      "requested_bed": null,
+      "meal_preference": null,
+      "is_room_primary_contact": null,
+      "created_at": "2016-03-30T22:54:14.000Z",
+      "updated_at": "2016-06-01T21:29:24.000Z",
+      "guest_id": 2,
+      "has_accepted_passage_contract": true,
+      "has_accepted_cuba_affadavit": true,
+      "uuid": "d8dc0b7e-6ebb-4d1c-a28e-2ae58dde578a",
+      "sms_opt_in": null,
+      "infusionsoft_lead_id": null,
+      "user_id": 5415,
+      "bed_arrangement": null,
+      "booking": {
+        "id": 100,
+        "polar_book_num": "CJCJWX",
+        "polar_booking_status": null,
+        "polar_book_datetime": null,
+        "ship_voyage_id": 13,
+        "created_at": "2016-03-30T22:53:35.000Z",
+        "updated_at": "2016-03-30T22:53:35.000Z",
+        "open_date": null,
+        "first_name": "AARON",
+        "last_name": "TRIBBLE",
+        "age": 34,
+        "gender": "M",
+        "dob": "1982-04-27",
+        "group_code": null,
+        "promotions": "LI1",
+        "commission_full_booking": null,
+        "commission": "0.0",
+        "fare": 10460,
+        "discount_percentage": null,
+        "discount_amount": -5420,
+        "port_charges": 380,
+        "gov_fees": 412,
+        "onboard_credit": 0,
+        "gross": 5982,
+        "booking_agent": "DIRECT2016F",
+        "balance_due": 0,
+        "deposit": 2400,
+        "currency": "USD",
+        "agency": "DIRECT",
+        "phone": "2130000000"
+      },
+      "ship_voyage": {
+        "id": 13,
+        "polar_sailing_id": "D649",
+        "sail_date": "2016-06-12",
+        "voyage_itinerary_id": 10,
+        "created_at": "2016-03-30T22:53:34.000Z",
+        "updated_at": "2016-04-27T22:14:14.000Z",
+        "ship_id": 1,
+        "pier_terminal": "J",
+        "boarding_time": "12:00",
+        "sail_time": "16:30",
+        "ship": {
+          "id": 1,
+          "name": "Adonia"
+        }
+      },
+      "ship": {
+        "id": 1,
+        "name": "Adonia"
+      },
+      "voyage_itinerary": {
+        "id": 10,
+        "code": "C6D07X",
+        "description": "7-DAY CUBA",
+        "duration_days": 7,
+        "embark_port_id": 1,
+        "debark_port_id": 7,
+        "created_at": "2016-03-30T22:53:34.000Z",
+        "updated_at": "2016-03-30T22:53:34.000Z",
+        "start_day_of_week": 0,
+        "max_activities": 0,
+        "max_impact_activities": 0,
+        "embark_port": {
+          "id": 1,
+          "code": "MIAMI",
+          "name": "Miami, Florida",
+          "created_at": "2016-03-30T22:44:31.000Z",
+          "updated_at": "2016-03-30T22:44:31.000Z",
+          "country_label": null
+        },
+        "debark_port": {
+          "id": 7,
+          "code": "SANTIAGO_DE_CUBA",
+          "name": "Santiago de Cuba, Cuba",
+          "created_at": "2016-03-30T22:44:31.000Z",
+          "updated_at": "2016-03-30T22:44:31.000Z",
+          "country_label": "Cuba"
+        }
+      },
+      "debark_port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      },
+      "embark_port": {
+        "id": 1,
+        "code": "MIAMI",
+        "name": "Miami, Florida",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": null
+      },
+      "traveler": {
+        "id": 193,
+        "infusionsoft_contact_id": "46",
+        "email": "christina.r.tribble@gmail.com",
+        "is_child": false,
+        "title": null,
+        "first_name": "CHRISTINA",
+        "middle_name": "ROBIN",
+        "last_name": "TRIBBLE",
+        "gender": "F",
+        "date_of_birth": "1986-01-12",
+        "country": "US",
+        "city": "Irving",
+        "province": null,
+        "postal_code": "750369",
+        "phone": "6824296033",
+        "phone_type": 0,
+        "country_of_birth": "US",
+        "speaks_spanish": true,
+        "dietary_restrictions": null,
+        "languages": "English and Spanish",
+        "emergency_contact_full_name": "Tanna Spears",
+        "emergency_contact_relationship": "Mother",
+        "emergency_contact_day_phone": "2818441781",
+        "emergency_contact_night_phone": "2818441781",
+        "emergency_contact_email_address": "mimispears3@yahoo.com",
+        "emergency_airport": "DFW",
+        "created_at": "2016-03-30T22:54:14.000Z",
+        "updated_at": "2016-06-10T21:09:30.000Z",
+        "citizenship": "US",
+        "passport_number": "490601743",
+        "passport_issue_date": "2012-04-14",
+        "passport_expiry_date": "2022-04-13",
+        "passport_country": "US",
+        "passport_issuing_authority": "United States Department of State",
+        "age": 20,
+        "street": "6445 Love Drive",
+        "emergency_contact_street": null,
+        "emergency_contact_city": null,
+        "emergency_contact_province": null,
+        "emergency_contact_postal_code": null,
+        "emergency_contact_country": null,
+        "temporary_source_data_title": "MRS",
+        "temporary_source_data_phone": "2130000000",
+        "has_valid_passport": true,
+        "owned_by": "chris@example.com",
+        "user": {
+          "id": 5415,
+          "first_name": "CHRISTINA",
+          "last_name": "TRIBBLE",
+          "middle_name": "ROBIN",
+          "email": "chris@example.com",
+          "role": "traveler"
+        }
+      },
+      "activity_preferences": [
+        {
+          "id": 19615,
+          "traveler_booking_id": 193,
+          "comments": null,
+          "created_at": "2016-05-27T00:25:38.000Z",
+          "updated_at": "2016-05-27T00:25:38.000Z",
+          "activity_occurrence_id": 156,
+          "activity_id": 90,
+          "activity_occurrence": {
+            "id": 156,
+            "shorex_id": "HAV001A",
+            "depart_time": "11:50 AM",
+            "return_time": "5:40 PM",
+            "price_adult": "0.00",
+            "price_child": "0.00",
+            "cost_adult": "65.00",
+            "cost_child": "65.00",
+            "minimum": 33,
+            "excursion_day": 1,
+            "excursion_day_name": "Monday",
+            "wheelchair_code": "N",
+            "all_day_flag": false,
+            "period": "AM",
+            "availability_voyage": null,
+            "availability": null,
+            "capacity": 704,
+            "activity_voyage_overrides": [
+              {
+                "id": 1,
+                "ship_voyage_id": 13,
+                "activity_occurrence_id": 156,
+                "cancelled": true,
+                "capacity": null
+              }
+            ]
+          },
+          "activity": {
+            "id": 90,
+            "name": "Old Havana Walking Tour",
+            "activity_type": "PTP",
+            "activity_ptp": "PTP",
+            "location": "SANTIAGO_DE_CUBA",
+            "image_url": "https://apiuat.fathom.org/shorex_images/old_havana.jpg",
+            "description": "Discover the vibrant flavors, colors, and people of Old Havana on this walking tour with an authentic Cuban lunch at a local paladar or restaurant where you will learn about the flavors and cuisine of Cuba.  Built in the 16th Century, Old Havana is a recognized  UNESCO World Heritage Site and provides a glimpse into deep and rich history of the city. Enjoy a coffee in Plaza Vieja while a local Cafe owner will explain the role of tourism in Old Havana or see how coffee beans are roasted, and visit San Francisco de Assisi Square to discuss the role of religion on the island from patrons of the square’s beautiful cathedral. Stumble upon the famous booksellers' market in Plaza de Armas to explore literature and antiques with the local merchants and then have your fortune read by one of the many Santeros who have set up shop in Cathedral Square, before meeting local artists at Taller Grafico Experimental, where you will learn about one of the world’s oldest “grabado” or printmaking techniques.",
+            "activity_occurrences": [
+              {
+                "id": 156,
+                "shorex_id": "HAV001A",
+                "depart_time": "11:50 AM",
+                "return_time": "5:40 PM",
+                "price_adult": "0.00",
+                "price_child": "0.00",
+                "cost_adult": "65.00",
+                "cost_child": "65.00",
+                "minimum": 33,
+                "excursion_day": 1,
+                "excursion_day_name": "Monday",
+                "wheelchair_code": "N",
+                "all_day_flag": false,
+                "period": "AM",
+                "availability_voyage": null,
+                "availability": null,
+                "capacity": 704,
+                "activity_voyage_overrides": [
+                  {
+                    "id": 1,
+                    "ship_voyage_id": 13,
+                    "activity_occurrence_id": 156,
+                    "cancelled": true,
+                    "capacity": null
+                  }
+                ]
+              }
+            ],
+            "port": {
+              "id": 7,
+              "code": "SANTIAGO_DE_CUBA",
+              "name": "Santiago de Cuba, Cuba",
+              "created_at": "2016-03-30T22:44:31.000Z",
+              "updated_at": "2016-03-30T22:44:31.000Z",
+              "country_label": "Cuba"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 93,
+      "name": "Havana Day 1 self-guided",
+      "activity_type": "PTP",
+      "activity_ptp": "Self-Guided",
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "",
+      "description": "Self-guided P2P in Havana Day 1",
+      "activity_occurrences": [
+        {
+          "id": 159,
+          "shorex_id": "HAV001S",
+          "depart_time": "11:50 AM",
+          "return_time": "5:40 PM",
+          "price_adult": "0.00",
+          "price_child": "0.00",
+          "cost_adult": "0.00",
+          "cost_child": "0.00",
+          "minimum": 0,
+          "excursion_day": 1,
+          "excursion_day_name": "Monday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "AM",
+          "availability_voyage": "D649",
+          "availability": 704,
+          "capacity": 704,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 96,
+      "name": "Tropicana via Motorcoach",
+      "activity_type": "ShoreEx",
+      "activity_ptp": null,
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "https://apiuat.fathom.org/shorex_images/tropicana.jpg",
+      "description": "Enjoy an evening under the beautiful Cuban sky with a performance unlike any other at the Tropicana Cabaret.  Experience the music, colors, and beauty of Cuban and Caribbean folklore as told by some of the best entertainers in the world.  ",
+      "activity_occurrences": [
+        {
+          "id": 162,
+          "shorex_id": "HAV002A",
+          "depart_time": "9:00 PM",
+          "return_time": "11:59 PM",
+          "price_adult": "199.00",
+          "price_child": "199.00",
+          "cost_adult": "146.00",
+          "cost_child": "146.00",
+          "minimum": 4,
+          "excursion_day": 1,
+          "excursion_day_name": "Monday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "PM",
+          "availability_voyage": "D649",
+          "availability": 50,
+          "capacity": 50,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Cabaret Parisien via Motorcoach",
+      "activity_type": "ShoreEx",
+      "activity_ptp": null,
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "https://apiuat.fathom.org/shorex_images/cabaret_parisien.jpg",
+      "description": "Hosted at the famed Nacional Hotel, the Parisien Cabaret showcases the soul of Cuba.  Inspired by Indo American, Hispanic, and African Cultures, the Parisien tells the story of Cuba in traditional cabaret fashion.",
+      "activity_occurrences": [
+        {
+          "id": 165,
+          "shorex_id": "HAV003A",
+          "depart_time": "9:00 PM",
+          "return_time": "11:59 PM",
+          "price_adult": "129.00",
+          "price_child": "129.00",
+          "cost_adult": "63.00",
+          "cost_child": "63.00",
+          "minimum": 4,
+          "excursion_day": 1,
+          "excursion_day_name": "Monday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "PM",
+          "availability_voyage": "D649",
+          "availability": 46,
+          "capacity": 50,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 102,
+      "name": "El Canonazo Ceremony via Motorcoach",
+      "activity_type": "ShoreEx",
+      "activity_ptp": null,
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "https://apiuat.fathom.org/shorex_images/canonazo.jpg",
+      "description": "A symbol of Havana, the cannon ceremony at the Fortress of San Carlos de la Habana has been taking place nightly for over 400 years. During the early years of Spain’s rule over Cuba, Havana was protected from pirate attack by massive fortress walls. Passage through these walls and into Cuba was curfewed at 9:00pm, an event signified with the firing of a cannon ball. Today the ceremony, now known as El Canonazo, continues to take place daily, preserving a small piece of Havana’s colonial history.",
+      "activity_occurrences": [
+        {
+          "id": 168,
+          "shorex_id": "HAV004A",
+          "depart_time": "7:30 PM",
+          "return_time": "9:30 PM",
+          "price_adult": "59.00",
+          "price_child": "59.00",
+          "cost_adult": "28.00",
+          "cost_child": "28.00",
+          "minimum": 4,
+          "excursion_day": 1,
+          "excursion_day_name": "Monday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "PM",
+          "availability_voyage": "D649",
+          "availability": -1,
+          "capacity": 2,
+          "activity_voyage_overrides": [
+            {
+              "id": 5,
+              "ship_voyage_id": 13,
+              "activity_occurrence_id": 168,
+              "cancelled": null,
+              "capacity": 2
+            }
+          ]
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 105,
+      "name": "Best of Havana with Lunch",
+      "activity_type": "PTP",
+      "activity_ptp": "PTP",
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "https://apiuat.fathom.org/shorex_images/best_of_havana.jpg",
+      "description": "Enjoy the best Havana has to offer with this day-long agenda including lunch served in one of Cuba’s many family-owned in-home restaurants known as Paladares where you will meet the family cooking your meal and learn about their journey to self-employment, all while enjoying authentic Cuban cuisine. A panoramic tour of the city will drive you up the famous Paseo del Prado and past Parque Central, where passionate baseball fans can be overheard debating greats, and the Gran Teatro de La Habana, home of the Cuban National Ballet, just re-opened after a 2 year renovation. Enjoy views of the El Capitolio, currently under extensive renovations, and down the famed Reina Street where Art Nouveau buildings, colonial houses and Art Deco homes line the corridor. Stand in the Plaza de la Revolucion under the watchful eyes of colossal iron sculptures of Che Guevara and Camilo Cienfuegos and talk to passionate Cubans about their national hero, Jose Marti, below the monument memorializing his commitment to the people of the island. A short drive from Plaza de la Revolucion, a local guide will share the stories and secrets of the 140-acre Cementerio de Cristobal Colon, whose central avenues, sculptural monuments and elaborate baroque-style mausoleums make this massive cemetery almost a city of its own. Peruse the halls of the Museo Nacional de Bellas Artes, where you can feel the pride of the Cuban people emanating from the beautiful artwork adorning the walls. Spanning five centuries, the art housed at Bellas Artes is a testimony to the integral and vital role arts play in Cuban culture, and is home to some of Cuba’s best examples of fine art. Enjoy a break from the sun inside the museum discussing this comprehensive collection with local art enthusiasts. The last few decades have seen rise to a number of transformative community projects in Havana, where you will experience firsthand how vision and passion can change a neighborhood.  Spend part of the day visiting local residents committed to neighborhood improvement projects like the home of famed Cuban artist Jose Fuster, who has turned his entire neighborhood into a mosaic maze inspired by the the styles of Picasso and Gaudi, or the collective outdoor art exhibit at Muraleando taking a community workshop on one of Cuba’s many traditional art forms. Other community projects include a visit to a local organic farm, the Arte Corte project, or Callejon de Hamel. During your day exploring Havana, admire the artisanal crafts being sold in Havana’s largest craft market, Almacenes san José Artisans' Market.  Offering everything from clothing and jewelry to ceramics, paintings, souvenirs, and residents ready to tell stories of Havana, both old and new, the market is full of both unique curiosities and unique conversations. Just a short journey outside of Havana lies the town of Cojimar, known for its relation to famed expatriate Ernest Hemingway.  Used as the setting for “Old Man and the Sea”, Cojimar is a small fishing village and home to some of the most colorful characters in Cuba.  Walk along the docks of this old village, enjoying the conversations and scenery that made Hemingway fall in love with this small town so many years ago.",
+      "activity_occurrences": [
+        {
+          "id": 171,
+          "shorex_id": "HAV005A",
+          "depart_time": "8:00 AM",
+          "return_time": "5:45 PM",
+          "price_adult": "0.00",
+          "price_child": "0.00",
+          "cost_adult": "117.00",
+          "cost_child": "117.00",
+          "minimum": 33,
+          "excursion_day": 2,
+          "excursion_day_name": "Tuesday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "PM",
+          "availability_voyage": "D649",
+          "availability": 680,
+          "capacity": 704,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 108,
+      "name": "Havana Day 2 self-guided",
+      "activity_type": "PTP",
+      "activity_ptp": "Self-Guided",
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "",
+      "description": "Self-guided P2P in Havana Day 2",
+      "activity_occurrences": [
+        {
+          "id": 174,
+          "shorex_id": "HAV005S",
+          "depart_time": "8:00 AM",
+          "return_time": "5:45 PM",
+          "price_adult": "0.00",
+          "price_child": "0.00",
+          "cost_adult": "0.00",
+          "cost_child": "0.00",
+          "minimum": 0,
+          "excursion_day": 2,
+          "excursion_day_name": "Tuesday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "PM",
+          "availability_voyage": "D649",
+          "availability": 2,
+          "capacity": 2,
+          "activity_voyage_overrides": [
+            {
+              "id": 6,
+              "ship_voyage_id": 13,
+              "activity_occurrence_id": 174,
+              "cancelled": null,
+              "capacity": 2
+            }
+          ]
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 111,
+      "name": "Pearl of the South with Cantores de Cienfuegos",
+      "activity_type": "PTP",
+      "activity_ptp": "PTP",
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "https://apiuat.fathom.org/shorex_images/cienfuegos.jpg",
+      "description": "With its remarkable collection of French-influenced Neoclassical buildings, wide seaside boulevards and sparkling bay, it is understandable why Cubans call Cienfuegos “La Perla Del Sur”, The Pearl of the South.  Spend the day walking the streets of Cienfuegos passing through downtown, which has been designated as a UNESCO World Heritage Site, and stop over in one of the pharmacies, markets, or local ration stores to learn about the dual currency system and Cuba’s rations program with one of the many residents of Cienfuegos. Your morning exploring Cienfuegos includes a trip to Teatro Tomas Terry, where a special performance has been planned for Fathom’s travelers.  Finished in 1889 to honor Venezuelan industrialist Tomas Terry, the 950-seat auditorium takes its influence from French and Italian architects and is embellished with Carrara marble, hand-carved Cuban hardwoods and whimsical ceiling frescoes. Your morning in Cienfuegos will feature a private performance by the world renowned Cantores de Cienfuegos, with an opportunity afterwards to hear directly from the musicians about their lives, training and their roles as music professors at area schools.",
+      "activity_occurrences": [
+        {
+          "id": 177,
+          "shorex_id": "CFG001A",
+          "depart_time": "8:30 AM",
+          "return_time": "11:55 AM",
+          "price_adult": "0.00",
+          "price_child": "0.00",
+          "cost_adult": "30.00",
+          "cost_child": "30.00",
+          "minimum": 33,
+          "excursion_day": 4,
+          "excursion_day_name": "Thursday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "AM",
+          "availability_voyage": "D649",
+          "availability": 680,
+          "capacity": 704,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 114,
+      "name": "Cienfuegos self-guided",
+      "activity_type": "PTP",
+      "activity_ptp": "Self-Guided",
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "",
+      "description": "Self-guided P2P in Cienfuegos",
+      "activity_occurrences": [
+        {
+          "id": 180,
+          "shorex_id": "CFG001S",
+          "depart_time": "8:30 AM",
+          "return_time": "11:55 AM",
+          "price_adult": "0.00",
+          "price_child": "0.00",
+          "cost_adult": "0.00",
+          "cost_child": "0.00",
+          "minimum": 0,
+          "excursion_day": 4,
+          "excursion_day_name": "Thursday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "AM",
+          "availability_voyage": "D649",
+          "availability": 704,
+          "capacity": 704,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    },
+    {
+      "id": 117,
+      "name": "Explore the Magic of Santiago with Lunch",
+      "activity_type": "PTP",
+      "activity_ptp": "PTP",
+      "location": "SANTIAGO_DE_CUBA",
+      "image_url": "https://apiuat.fathom.org/shorex_images/santiago.jpg",
+      "description": "Capital of the Spanish colony of Cuba from 1522 to 1589, Santiago de Cuba has a rich and colorful history. Considered the birthplace of “ron, son, and revolucion”, the watchtowers and cannons used in the Spanish-American war still protect and guard this port city, where this day-long agenda includes lunch served in a local restaurant by the sea or by a picturesque city square, where the chef and staff will answers questions about their city and cuisine. The visit to Santiago de Cuba will feature panoramic drives through the city passing by the city’s most famous attractions like San Juan Hill, Antonio Maceo Revolution Square, and the Plaza de Marte. Dive deep into the city’s colonial past as you explore the UNESCO World Heritage site of Castillo de San Pedro de la Roca, a coastal fortress constructed in 1637 to protect Santiago de Cuba. Inside the fort, explore the country’s most complete and best-preserved examples of Spanish-American military architecture and artifacts alongside local history enthusiasts. A short distance away from Castillo de San Pedro de la Roca lies the Santiago city center, with opportunities to experience and learn at the Casa de la Trova, Parque Cesepedes, or the Catedral de la Cuidad from local residents about music and religion in the eastern end of the island. Steps away is the Santa Ifigenia Cemetery, where Cuban National Hero Jose Marti was laid to rest and witness the changing of the guard that protects his tomb. Spend a portion of the day visiting community projects where local residents are working hard to create change in their communities, utilizing creative approaches in arts, food, and culture to enrich the lives of their neighbors.",
+      "activity_occurrences": [
+        {
+          "id": 183,
+          "shorex_id": "SCU001A",
+          "depart_time": "9:30 AM",
+          "return_time": "3:40 PM",
+          "price_adult": "0.00",
+          "price_child": "0.00",
+          "cost_adult": "112.00",
+          "cost_child": "112.00",
+          "minimum": 33,
+          "excursion_day": 5,
+          "excursion_day_name": "Friday",
+          "wheelchair_code": "N",
+          "all_day_flag": false,
+          "period": "AM",
+          "availability_voyage": "D649",
+          "availability": 680,
+          "capacity": 704,
+          "activity_voyage_overrides": []
+        }
+      ],
+      "port": {
+        "id": 7,
+        "code": "SANTIAGO_DE_CUBA",
+        "name": "Santiago de Cuba, Cuba",
+        "created_at": "2016-03-30T22:44:31.000Z",
+        "updated_at": "2016-03-30T22:44:31.000Z",
+        "country_label": "Cuba"
+      }
+    }
+  ]
+}

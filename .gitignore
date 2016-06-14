@@ -1,0 +1,5 @@
+_attic
+.DS_Store
+node_modules
+tests/model.json
+tests/credentials.json
