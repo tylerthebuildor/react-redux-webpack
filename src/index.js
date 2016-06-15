@@ -22,12 +22,3 @@ render(
   </Provider>,
   document.getElementById('app')
 );
-
-/*<Provider store={store}>
-  <Router history={history}>
-    <Route path="/" component={App}>
-      <Route path="foo" component={Foo}/>
-      <Route path="bar" component={Bar}/>
-    </Route>
-  </Router>
-</Provider>,*/
