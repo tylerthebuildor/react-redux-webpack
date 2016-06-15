@@ -18,25 +18,17 @@ function headersFactory(jwtToken) {
   }
 }
 
-const tokensUrl = `${credentials.url}/tokens`;
-const resourceUrl = `${credentials.url}/resource?search[filter]=${credentials.filter}`;
-
 let newModel = {};
+const userReposUrl = `${credentials.url}/users/${credentials.user}/repos`;
+const fetchUserRepos = fetch(userReposUrl, headersFactory()('get'));
 
-fetch(tokensUrl, headersFactory()('post', credentials))
-  .then(res => res.json())
-  .then(res => fetch(resourceUrl, headersFactory(res.auth_token)('get')))
+fetchUserRepos
   .then(res => res.json())
   .then(res => {
-    newModel.resource = res;
-    const otherResourceUrl = `${credentials.url}/other-resource?filter=${res[0].childResource.id}`;
-    return fetch(otherResourceUrl, headersFactory(res.auth_token)('get'));
-  })
-  .then(res => res.json())
-  .then(res => {
-    newModel.otherResource = res;
+    if (res.errors) throw Error(res.errors);
+    newModel.user = { name: credentials.user };
+    newModel.repos = res;
     fs.writeFile('./test/model.json', JSON.stringify(newModel, null, 2), err => {
-      if (err) return console.log('There was an error bruh!', err);
       console.log('The file ./test/model.json has been updated!');
     });
   })

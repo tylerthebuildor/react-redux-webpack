@@ -5,11 +5,11 @@ import {
 import thunk from 'redux-thunk';
 import reducers from '../reducers';
 
-export default function configureStore(initialState) {
+export default function configureStore(initialState = {}, history) {
   const store = createStore(
     reducers,
     initialState,
-    applyMiddleware(thunk)
+    applyMiddleware(thunk, history)
   );
 
   if (module.hot) {

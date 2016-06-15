@@ -7,14 +7,41 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
 
-    console.log(props);
+    this.changeUser = this.changeUser.bind(this);
+    this.showDetails = this.showDetails.bind(this);
+  }
+
+  componentDidMount() {
+    this.props.refreshRepos(this.props.user);
+  }
+
+  changeUser() {
+    const input = prompt('Enter Github Username');
+    if (input) {
+      const newUser = { name: input };
+      this.props.changeUser(newUser);
+      this.props.refreshRepos(newUser);
+    }
+  }
+
+  showDetails(repo) {
+    this.props.history.push(`/details/${repo.name}`);
   }
 
   render() {
     return (
       <div>
-        <h1>Asuh dude!</h1>
-        <h2>Get lit fam</h2>
+        <h1>{this.props.user.name}</h1>
+        <button onClick={() => this.changeUser()}>Change User</button>
+        <ul>
+          {this.props.repos.map((repo, repoIndex) =>
+            <li key={repoIndex}>
+              <button onClick={() => this.showDetails(repo)}>
+                {repo.name}
+              </button>
+            </li>
+          )}
+        </ul>
       </div>
     );
   }
@@ -23,8 +50,10 @@ export default class App extends React.Component {
 
 App.propTypes = {
   user: PropTypes.object,
+  repos: PropTypes.array,
 };
 
 App.defaultProps = {
   user: {},
+  repos: [],
 };

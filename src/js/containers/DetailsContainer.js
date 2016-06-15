@@ -2,9 +2,10 @@ import { connect } from 'react-redux';
 import {
   changeUser,
   refreshRepos,
+  refreshDetails,
 } from '../actions';
 
-import App from '../components/App';
+import Details from '../components/Details';
 
 function getRepos(user) {
   return dispatch => {
@@ -12,7 +13,6 @@ function getRepos(user) {
       .then(res => res.json())
       .then(res => {
         if (res.errors) throw Error(res.errors[0].message);
-        console.log(res);
         dispatch(refreshRepos(res));
       })
       .catch(e => {
@@ -21,9 +21,25 @@ function getRepos(user) {
   };
 }
 
-const mapStateToProps = (state) => ({
+function getDetails(user, repoName) {
+  return dispatch => {
+    fetch(`https://api.github.com/repos/${user.name}/${repoName}`)
+      .then(res => res.json())
+      .then(res => {
+        if (res.errors) throw Error(res.errors[0].message);
+        dispatch(refreshDetails(res));
+      })
+      .catch(e => {
+        console.log(e);
+      });
+  };
+}
+
+const mapStateToProps = (state, ownProps) => ({
+  repoName: ownProps.params.repoName,
   user: state.user,
   repos: state.repos,
+  details: state.details,
 });
 
 const mapDispatchToProps = (dispatch) => ({
@@ -33,11 +49,14 @@ const mapDispatchToProps = (dispatch) => ({
   refreshRepos: (user) => {
     dispatch(getRepos(user));
   },
+  refreshDetails: (user, repoName) => {
+    dispatch(getDetails(user, repoName));
+  },
 });
 
-const AppContainer = connect(
+const DetailsContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(App);
+)(Details);
 
-export default AppContainer;
+export default DetailsContainer;
