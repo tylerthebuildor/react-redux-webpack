@@ -1,6 +1,6 @@
-import webpack from 'webpack';
-import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+const webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
 
@@ -12,6 +12,7 @@ const config = {
   output: {
     path: path.join(__dirname, '/dist/'),
     filename: 'bundle.js',
+    publicPath: '',
   },
   plugins: [
     new HtmlWebpackPlugin({

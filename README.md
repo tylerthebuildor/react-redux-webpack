@@ -16,10 +16,10 @@ npm start
 
 ## Build
 
-**Still need to make this**
+**Places output in `./dist`**
 
 ```
-npm build
+npm run build
 ```
 
 ## Tests

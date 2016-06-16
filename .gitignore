@@ -3,3 +3,4 @@ _attic
 node_modules
 tests/model.json
 tests/credentials.json
+dist
