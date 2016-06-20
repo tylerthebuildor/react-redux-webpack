@@ -6,7 +6,7 @@ import {
 import { expect } from 'chai';
 
 import App from './App';
-// import model from '../../../tests/model.json';
+// import model from '../../../test/model.json';
 
 describe('<App />', () => {
 

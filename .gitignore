@@ -1,6 +1,7 @@
 _attic
 .DS_Store
 node_modules
-tests/model.json
-tests/credentials.json
+test/model.json
+test/credentials.json
 dist
+npm-debug.log
