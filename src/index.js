@@ -12,6 +12,8 @@ const initialState = {};
 const store = configureStore(initialState, routerMiddleware(browserHistory));
 const history = syncHistoryWithStore(browserHistory, store);
 
+require('./index.scss');
+
 render(
   <Provider store={store}>
     <Router history={history}>

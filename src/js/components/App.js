@@ -30,10 +30,10 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="header">
         <h1>{this.props.user.name}</h1>
         <button onClick={() => this.changeUser()}>Change User</button>
-        <ul>
+        <ul className="content">
           {this.props.repos.map((repo, repoIndex) =>
             <li key={repoIndex}>
               <button onClick={() => this.showDetails(repo)}>
